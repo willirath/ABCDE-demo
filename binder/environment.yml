@@ -5,6 +5,14 @@ dependencies:
   - pangeo-notebook==2020.07.03
   - xarray
   - hvplot
+  - numpy
+  - matplotlib
+  - intake-xarray
+  - gcsfs
+  - cartopy
+  - cmocean
+  - xgcm
   - pip
   - pip:
+    - fpzip
     - sat-search
