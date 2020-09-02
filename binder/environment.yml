@@ -12,6 +12,7 @@ dependencies:
   - cartopy
   - cmocean
   - xgcm
+  - zfpy
   - pip
   - pip:
     - fpzip
