@@ -3,17 +3,19 @@ channels:
   - conda-forge
 dependencies:
   - pangeo-notebook==2020.07.03
-  - xarray
-  - hvplot
-  - numpy
-  - matplotlib
-  - intake-xarray
-  - gcsfs
   - cartopy
   - cmocean
+  - gcsfs
+  - hvplot
+  - intake-xarray
+  - matplotlib
+  - numpy
+  - pandas
+  - xarray
   - xgcm
   - zfp
+  - zfpy
   - pip
   - pip:
-    - fpzip
-    - sat-search
+      - fpzip
+      - sat-search
