@@ -12,9 +12,8 @@ cd ${HOME}/pysz_tmp/SZ
 conda activate notebook
 mkdir build
 cd build
-cmake .. -DBUILD_PYTHON_WRAPPER=ON
+cmake .. -DBUILD_PYTHON_WRAPPER=ON -DCMAKE_INSTALL_PREFIX:PATH=${HOME}/pysz
 cmake --build .
-sudo cmake --install .
-
+cmake --install .
 
 #EOF
