@@ -5,4 +5,16 @@ jupyter labextension install --clean \
                             dask-labextension \
                             @pyviz/jupyterlab_pyviz
 
+# add SZ
+mkdir -p ${HOME}/pysz_tmp/
+git clone https://github.com/szcompressor/SZ.git ${HOME}/pysz_tmp/SZ
+cd ${HOME}/pysz_tmp/SZ
+conda activate notebook
+mkdir build
+cd build
+cmake .. -DBUILD_PYTHON_WRAPPER=ON
+cmake --build .
+sudo cmake --install .
+
+
 #EOF
