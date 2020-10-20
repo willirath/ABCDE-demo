@@ -4,10 +4,12 @@ channels:
 dependencies:
   - pangeo-notebook==2020.07.03
   - cartopy
+  - cmake
   - cmocean
   - gcsfs
   - hvplot
   - intake-xarray
+  - make
   - matplotlib
   - numpy
   - pandas

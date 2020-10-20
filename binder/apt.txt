@@ -1,2 +1,8 @@
 vim
 git
+cmake
+make
+build-essential
+g++
+gcc
+swig
